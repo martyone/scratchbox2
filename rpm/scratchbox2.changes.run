@@ -1,0 +1,7 @@
+#!/usr/bin/git-change-log --script
+
+# Skip the original upstream history, ignore mer-* tags
+git-change-log --since 2.3.90 --tags 'refs/tags/[0-9]*'
+
+echo ""
+echo "  [Some changelog entries trimmed for brevity]"
